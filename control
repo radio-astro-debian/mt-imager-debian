@@ -1,15 +1,18 @@
 Source: mt-imager
-Section: unknown
+Section: science
 Priority: extra
 Maintainer: Gijs Molenaar <gijs@pythonic.nl>
-Build-Depends: debhelper (>= 8.0.0), cmake
+Build-Depends: debhelper (>= 8.0.0), cmake, nvidia-cuda-toolkit, libboost-dev,
+ libcasacore-dev, libcfitsio3-dev, liblog4cxx10-dev, libboost-system-dev,
+ libboost-thread-dev, libboost-regex-dev, libhdf5-dev, libboost-chrono-dev
 Standards-Version: 3.9.2
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/mt-imager.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/mt-imager.git;a=summary
+Homepage: http://www.mtimager.com/
 
 Package: mt-imager
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: high performance image synthesiser for radio interferometry
+ The Malta-imager (mt-imager for short) is a high performance image synthesiser
+ for radio interferometry. It is implemented in C++ and CUDA. With the help of
+ international collaborators, there will soon be further development as part of
+ Daniel's doctorate studies.
