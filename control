@@ -1,0 +1,15 @@
+Source: mt-imager
+Section: unknown
+Priority: extra
+Maintainer: Gijs Molenaar <gijs@pythonic.nl>
+Build-Depends: debhelper (>= 8.0.0), cmake
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/mt-imager.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/mt-imager.git;a=summary
+
+Package: mt-imager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

@@ -1,0 +1,5 @@
+mt-imager (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Gijs Molenaar <gijs@pythonic.nl>  Thu, 20 Mar 2014 11:49:30 +0200
