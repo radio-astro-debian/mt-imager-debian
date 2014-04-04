@@ -1,5 +1,6 @@
-mt-imager (1.0-1) unstable; urgency=low
+mt-imager (1.0-1trusty) trusty; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * first release
 
- -- Gijs Molenaar <gijs@pythonic.nl>  Thu, 20 Mar 2014 11:49:30 +0200
+ -- Gijs Molenaar <gijs@pythonic.nl>  Fri, 04 Apr 2014 14:27:30 +0200
+
